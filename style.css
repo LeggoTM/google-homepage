@@ -1,18 +1,176 @@
-li {
-    display: inline;
-    float: right;
-    padding: 5px;
-}
+ html {
+        font-family: arial, sans-serif;
+    }
 
-.nav {
-    width: 100%;
-}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-.sign {
-    background-color: cornflowerblue;
-}
+    .botlinks {
+        font-size: 14px;
+        padding-left: 27px;
+        height: 40px;
+        line-height: 40px;
+        color: #5f6368;
+        opacity: 1;
+    }
 
-.logo {
-    margin-left: auto;
-    margin-top: auto;
-}
+    li {
+        display: inline;
+    }
+
+    li.rlink {
+        float: right;
+    }
+
+    li.endlink {
+        margin-right: 30px;
+    }
+
+    #signinbutton {
+            background-color: rgb(70, 131, 234);
+            border: 1px solid #4285f4;
+            outline: none;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 28px;
+            padding-left: 12px;
+            padding-right: 12px;
+            color: white;
+            opacity: 1;
+        }
+
+    #signinbutton:hover {
+        text-decoration: none;
+    }
+    a {
+        text-decoration: none;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 15px;
+        color: black;
+        opacity: 0.75;
+        font-size: 13px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #appsimage {
+            height: 30px;
+            width: 30px;
+            background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+            background-position: -132px -38px;
+            background-size: 528px 68px;
+            opacity: 0.55;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding-left: 0px;
+        }
+
+    #appsimage:hover {
+        opacity: 0.85;
+    }
+
+    #logo {
+        padding-top: 109px;
+    }
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+        padding-bottom: 20px;
+    }
+
+    #magnifyingicon {
+        font-size: 13px;
+        height: 20px;
+        width: 20px;
+        color: #9aa0a6;
+        fill: currentColor;
+        display: block;
+        line-height: 24px;
+        margin-top: -5px;
+        padding-right: 13px;
+    }
+
+    #searchbar {
+        display: flex;
+        background-color: #ffffff;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        border: 1px solid;
+        border-color: #dfe1e5;
+        border-radius: 24px;
+        height: 44px;
+        width: 582px;
+    }
+
+    #searchbar:hover {
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-color: rgba(223, 225, 229, 0);
+    }
+
+    #searchinput {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        padding 0;
+        color: rgba(0, 0, 0, 0.87);
+        word-wrap: break-word;
+        outline: none;
+        font: 16px arial, sans-serif;
+        line-height: 34px;
+        height: 34px;
+        margin-top: -5px;
+        flex-basis: 100%;
+    }
+
+    #searchbaritems {
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+        padding: 5px 8px 0 14px;
+        align-items: center;
+    }
+
+    button {
+        background-color: #f2f2f2;
+        border: 1px solid;
+        border-color: #f2f2f2;
+        color: #5f6368;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    button:hover {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        color: #222;
+        border-radius: 4px;
+    }
+
+    #bot {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background-color: #f2f2f2;
+        line-height: 40px;
+        border-top: 1px solid #e4e4e4;
+        min-width: 400px;
+    }
